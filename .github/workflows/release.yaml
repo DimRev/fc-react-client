@@ -39,3 +39,13 @@ jobs:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
           NPM_TOKEN: ${{ secrets.NPM_TOKEN }}
         run: npx semantic-release
+
+      - name: Trigger Jenkins Job
+        run: |
+          curl -X POST \
+            -u "${{ secrets.JENKINS_USER }}:${{ secrets.JENKINS_TOKEN }}" \
+            "https://jenkins.dimrev.xyz/job/rc-react-client-triggred-release/build"
+        env:
+          JENKINS_USER: ${{ secrets.JENKINS_USER }}
+          JENKINS_TOKEN: ${{ secrets.JENKINS_TOKEN }}
+
