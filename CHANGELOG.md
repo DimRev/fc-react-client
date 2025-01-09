@@ -1,3 +1,11 @@
+## [1.0.1](https://github.com/DimRev/fc-react-client/compare/v1.0.0...v1.0.1) (2025-01-09)
+
+
+### Bug Fixes
+
+* **ci:** Add github action for release [#11](https://github.com/DimRev/fc-react-client/issues/11) ([844ef45](https://github.com/DimRev/fc-react-client/commit/844ef45b81b973e7136c969df5bfbd3d440ef1ab))
+* **ci:** Setup semantic release, github actions ([56b2a06](https://github.com/DimRev/fc-react-client/commit/56b2a061cd77a10b93c391f320e91d7bb05a2d19))
+
 # 1.0.0 (2025-01-09)
 
 
