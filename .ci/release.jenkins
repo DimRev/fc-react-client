@@ -1,39 +1,11 @@
 pipeline {
-    agent any
-    environment {
-        GH_TOKEN  = credentials('github-token') // Replace with your GitHub token ID in Jenkins
+  agent any
+
+  stages {
+    stage('Test') {
+      steps {
+        sh 'echo "TODO: Test"'
+      }
     }
-    tools {
-        nodejs 'node LTS' // Ensure this matches the Node.js installation name in Jenkins
-    }
-    stages {
-        stage('Checkout Code') {
-            steps {
-                checkout scm
-            }
-        }
-        stage('Install pnpm') {
-            steps {
-                sh 'npm install -g pnpm@9' // Installs pnpm globally
-            }
-        }
-        stage('Install Dependencies') {
-            steps {
-                sh 'pnpm install'
-            }
-        }
-        stage('Run Semantic Release') {
-            steps {
-                sh 'npx semantic-release'
-            }
-        }
-    }
-    post {
-        success {
-            echo 'Release process completed successfully.'
-        }
-        failure {
-            echo 'Release process failed.'
-        }
-    }
+  }
 }
