@@ -2,27 +2,8 @@ pipeline {
     agent any
 
     stages {
-        stage('Filter Event') {
-            steps {
-                script {
-                    // Extract repository name and event type from the environment
-                    def repoName = sh(script: 'echo $GIT_URL', returnStdout: true).trim()
-                    def eventType = sh(script: 'echo $CHANGE_TARGET', returnStdout: true).trim()
-
-                    // Verify if the webhook belongs to the intended repository
-                    if (repoName != 'https://github.com/DimRev/fc-react-client.git') {
-                        error("This webhook is not intended for this repository: ${repoName}")
-                    }
-
-                    // Optionally filter for specific event types
-                    echo "Webhook triggered for repository: ${repoName}, event: ${eventType}"
-                }
-            }
-        }
         stage('Test') {
-            steps {
-                sh 'echo "Running tests for fc-react-client repository"'
-            }
+            sh 'echo "Running tests for fc-react-client repository"'
         }
     }
 }
