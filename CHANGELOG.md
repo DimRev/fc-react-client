@@ -1,3 +1,10 @@
+## [1.0.3](https://github.com/DimRev/fc-react-client/compare/v1.0.2...v1.0.3) (2025-01-10)
+
+
+### Bug Fixes
+
+* **ci:** Setup trigger-release jenkins script to run after release github action ([23845ca](https://github.com/DimRev/fc-react-client/commit/23845cace5c21eae07074c46791820e4ca512bbf))
+
 ## [1.0.2](https://github.com/DimRev/fc-react-client/compare/v1.0.1...v1.0.2) (2025-01-09)
 
 
