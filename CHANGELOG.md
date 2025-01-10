@@ -1,3 +1,10 @@
+# [1.1.0](https://github.com/DimRev/fc-react-client/compare/v1.0.4...v1.1.0) (2025-01-10)
+
+
+### Features
+
+* **scaffold-structure:** Adding shadcn, and react router for routing and styleing ([54c7f88](https://github.com/DimRev/fc-react-client/commit/54c7f8814016f48ad64b2f99273a4be944983ced))
+
 ## [1.0.4](https://github.com/DimRev/fc-react-client/compare/v1.0.3...v1.0.4) (2025-01-10)
 
 
