@@ -1,3 +1,10 @@
+## [1.0.2](https://github.com/DimRev/fc-react-client/compare/v1.0.1...v1.0.2) (2025-01-09)
+
+
+### Bug Fixes
+
+* **ci:** Trigger jenkins job after semantic-release ([ac5928b](https://github.com/DimRev/fc-react-client/commit/ac5928b519a69cc082ca3127db9339589caaf3ea))
+
 ## [1.0.1](https://github.com/DimRev/fc-react-client/compare/v1.0.0...v1.0.1) (2025-01-09)
 
 
