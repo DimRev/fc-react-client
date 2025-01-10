@@ -1,3 +1,10 @@
+## [1.0.4](https://github.com/DimRev/fc-react-client/compare/v1.0.3...v1.0.4) (2025-01-10)
+
+
+### Bug Fixes
+
+* **ci:** Fix jenkins release job ([dd57825](https://github.com/DimRev/fc-react-client/commit/dd57825d13f48f3c783144d2598c54145afb224e))
+
 ## [1.0.3](https://github.com/DimRev/fc-react-client/compare/v1.0.2...v1.0.3) (2025-01-10)
 
 
