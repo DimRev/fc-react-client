@@ -8,7 +8,7 @@ function App() {
   return (
     <BrowserRouter>
       <AppHeader />
-      <main className="flex-1 flex justify-center">
+      <main className="flex flex-1 justify-center">
         <Routes>
           <Route Component={HomePage} path="/" />
           <Route Component={AboutPage} path="/about" />

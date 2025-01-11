@@ -1,6 +1,6 @@
 function ContactPage() {
   return (
-    <div className="w-full container" data-testid="page-contact">
+    <div className="container w-full" data-testid="page-contact">
       Contact
     </div>
   );

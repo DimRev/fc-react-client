@@ -7,7 +7,6 @@ on:
 permissions:
   contents: read # for checkout
 
-
 jobs:
   setup:
     name: Install and Cache Dependencies
@@ -19,7 +18,7 @@ jobs:
       - name: Set up Node.js
         uses: actions/setup-node@v3
         with:
-          node-version: '20.8.1'
+          node-version: "20.8.1"
 
       # Restore node_modules cache before installing dependencies
       - name: Restore node_modules from cache
@@ -50,7 +49,7 @@ jobs:
   release:
     name: Release
     runs-on: ubuntu-latest
-    needs: setup 
+    needs: setup
     permissions:
       contents: write # to be able to publish a GitHub release
       issues: write # to be able to comment on released issues
@@ -63,7 +62,7 @@ jobs:
       - name: Set up Node.js
         uses: actions/setup-node@v3
         with:
-          node-version: '20.8.1'
+          node-version: "20.8.1"
 
       # Restore node_modules cache before running tests
       - name: Restore node_modules from cache

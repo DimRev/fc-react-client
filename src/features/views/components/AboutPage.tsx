@@ -1,6 +1,6 @@
 function AboutPage() {
   return (
-    <div className="w-full container" data-testid="page-about">
+    <div className="container w-full" data-testid="page-about">
       About
     </div>
   );

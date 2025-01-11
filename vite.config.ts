@@ -1,6 +1,6 @@
 /// <reference types="vitest" />
 import path from "path";
-import { defineConfig, UserConfig } from "vitest/config";
+import { defineConfig, type UserConfig } from "vitest/config";
 import react from "@vitejs/plugin-react-swc";
 
 // https://vite.dev/config/
