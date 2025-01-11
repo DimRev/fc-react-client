@@ -1,3 +1,16 @@
+# [1.4.0](https://github.com/DimRev/fc-react-client/compare/v1.3.1...v1.4.0) (2025-01-11)
+
+
+### Bug Fixes
+
+* **coverage:** Stop tracking coverage ([2ca82dc](https://github.com/DimRev/fc-react-client/commit/2ca82dc7525e7587aa413da2e59adea48364edec))
+* **setup-lint-and-prettier:** Rename prettier job to it's corr name ([37d0596](https://github.com/DimRev/fc-react-client/commit/37d05964aec2a6ee4fa931644df08f4cd7b1a1d8))
+
+
+### Features
+
+* **setup-lint-and-prettier:** Setup lint and prettier, add to pr ci ([00dbc0d](https://github.com/DimRev/fc-react-client/commit/00dbc0d71c92cd2e351698944cfbbe724ca0c59f))
+
 ## [1.3.1](https://github.com/DimRev/fc-react-client/compare/v1.3.0...v1.3.1) (2025-01-11)
 
 ### Bug Fixes
