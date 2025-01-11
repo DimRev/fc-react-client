@@ -75,3 +75,6 @@ jobs:
 
       - name: Run tests
         run: pnpm run test:ci
+
+      - name: Run tests coverage
+        run: pnpm run test:coverage
