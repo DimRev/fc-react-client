@@ -1,6 +1,6 @@
 import { Link, useNavigate } from "react-router";
 import { Button, buttonVariants } from "~/features/shared/components/ui/button";
-import { Menu } from "lucide-react";
+import { Menu, Volleyball } from "lucide-react";
 import {
   Sheet,
   SheetContent,
@@ -39,11 +39,16 @@ function AppHeader() {
 
   return (
     <header
-      className="flex h-10 w-full justify-center border-b"
+      className="h-header flex w-full justify-center border-b"
       data-testid="app-header"
     >
       <div className="container flex items-center justify-between">
-        <div>Logo</div>
+        <Link
+          to="/"
+          className={buttonVariants({ variant: "ghost", size: "icon" })}
+        >
+          <Volleyball />
+        </Link>
         {isMobile ? (
           <nav data-testid="nav-mobile">
             <Sheet open={isOpen} onOpenChange={setIsOpen}>

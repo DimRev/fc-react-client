@@ -2,43 +2,18 @@ import { render, screen } from "@testing-library/react";
 import { act } from "react";
 import { MemoryRouter, useLocation, Routes, Route } from "react-router";
 import AppHeader from "./AppHeader";
+import {
+  hasDesktopNav,
+  hasMobileSheetNav,
+  notDesktopNav,
+  notMobileSheetNav,
+  resizeWindow,
+} from "~/test/utils";
 
 describe("AppHeaderTests", () => {
-  const resizeWindow = (width: number) => {
-    window.innerWidth = width;
-    window.dispatchEvent(new Event("resize"));
-  };
-
   const CurrentPath = () => {
     const location = useLocation();
     return <div data-testid="current-path">{location.pathname}</div>;
-  };
-
-  const hasDesktopNav = () => {
-    expect(screen.getByTestId("nav")).toBeInTheDocument();
-    expect(screen.getByTestId("link-home")).toBeInTheDocument();
-    expect(screen.getByTestId("link-about")).toBeInTheDocument();
-    expect(screen.getByTestId("link-contact")).toBeInTheDocument();
-  };
-  const notDesktopNav = () => {
-    expect(screen.queryByTestId("nav")).not.toBeInTheDocument();
-    expect(screen.queryByTestId("link-home")).not.toBeInTheDocument();
-    expect(screen.queryByTestId("link-about")).not.toBeInTheDocument();
-    expect(screen.queryByTestId("link-contact")).not.toBeInTheDocument();
-  };
-  const hasMobileSheetNav = () => {
-    expect(screen.getByTestId("nav-mobile-sheet-content")).toBeInTheDocument();
-    expect(screen.getByTestId("link-home-mobile")).toBeInTheDocument();
-    expect(screen.getByTestId("link-about-mobile")).toBeInTheDocument();
-    expect(screen.getByTestId("link-contact-mobile")).toBeInTheDocument();
-  };
-  const notMobileSheetNav = () => {
-    expect(
-      screen.queryByTestId("nav-mobile-sheet-content"),
-    ).not.toBeInTheDocument();
-    expect(screen.queryByTestId("link-home-mobile")).not.toBeInTheDocument();
-    expect(screen.queryByTestId("link-about-mobile")).not.toBeInTheDocument();
-    expect(screen.queryByTestId("link-contact-mobile")).not.toBeInTheDocument();
   };
 
   beforeEach(() => {

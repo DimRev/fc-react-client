@@ -1,14 +1,17 @@
+import AppDiv from "~/features/layout/components/AppDiv";
+import AppHero from "~/features/layout/components/AppHero";
 import AppPage from "~/features/layout/components/AppPage";
+import { H1, P } from "~/features/shared/components/Typography";
 
 function ContactPage() {
   return (
     <AppPage testId="page-contact">
-      <div className="w-full bg-gradient-to-r from-blue-500 to-green-500 p-5 text-white">
-        <h1>Contact Page - Hero Section</h1>
-      </div>
-      <main className="container w-full py-2">
-        <p>This is the contact page.</p>
-      </main>
+      <AppHero>
+        <H1>Content Page - Hero Section</H1>
+      </AppHero>
+      <AppDiv>
+        <P>This is the content page.</P>
+      </AppDiv>
     </AppPage>
   );
 }
