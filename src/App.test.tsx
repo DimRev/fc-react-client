@@ -2,7 +2,7 @@ import { render, screen } from "@testing-library/react";
 import App from "./App";
 import { act } from "react";
 
-describe("App", () => {
+describe("Routing Tests", () => {
   beforeEach(() => {
     render(<App />);
   });
@@ -13,7 +13,7 @@ describe("App", () => {
     expect(screen.getByTestId("link-contact")).toBeInTheDocument();
   });
 
-  test("renders HomePage", () => {
+  test("Navigates to HomePage when Home link is clicked", () => {
     // Simulate a click on the Home link
     act(() => {
       screen.getByTestId("link-home").click();
@@ -21,7 +21,7 @@ describe("App", () => {
     expect(screen.getByTestId("page-home")).toBeInTheDocument();
   });
 
-  test("renders AboutPage", () => {
+  test("Navigates to AboutPage when About link is clicked", () => {
     // Simulate a click on the About link
     act(() => {
       screen.getByTestId("link-about").click();
@@ -29,7 +29,7 @@ describe("App", () => {
     expect(screen.getByTestId("page-about")).toBeInTheDocument();
   });
 
-  test("renders ContactPage", () => {
+  test("Navigates to ContactPage when Contact link is clicked", () => {
     // Simulate a click on the Contact link
     act(() => {
       screen.getByTestId("link-contact").click();
