@@ -1,0 +1,41 @@
+pipeline {
+    agent any
+
+    stages {
+        stage('Checkout') {
+            steps {
+                // Checkout the repository connected to the pipeline
+                checkout scm
+            }
+        }
+
+        stage('Install Dependencies') {
+            steps {
+                // Install dependencies using pnpm
+                sh 'pnpm i'
+            }
+        }
+
+        stage('Run Tests') {
+            steps {
+                // Run tests in CI mode using the pnpm script
+                script {
+                    def result = sh(script: 'pnpm run test:ci', returnStatus: true)
+                    if (result == 0) {
+                        echo "Tests passed"
+                    } else {
+                        echo "Tests failed"
+                        error "Pipeline failed due to test failures."
+                    }
+                }
+            }
+        }
+    }
+
+    post {
+        always {
+            // Clean up workspace after the build
+            cleanWs()
+        }
+    }
+}
