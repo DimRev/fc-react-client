@@ -22,7 +22,7 @@ jobs:
       - name: Restore node_modules from cache
         uses: actions/cache@v3
         with:
-          path: ./Fitness-v2-client/node_modules
+          path: ./node_modules
           key: ${{ runner.os }}-pnpm-${{ hashFiles('**/pnpm-lock.yaml') }}
           restore-keys: |
             ${{ runner.os }}-pnpm-
@@ -39,7 +39,7 @@ jobs:
       - name: Cache node_modules
         uses: actions/cache@v3
         with:
-          path: ./Fitness-v2-client/node_modules
+          path: ./node_modules
           key: ${{ runner.os }}-pnpm-${{ hashFiles('**/pnpm-lock.yaml') }}
           restore-keys: |
             ${{ runner.os }}-pnpm-
@@ -61,7 +61,7 @@ jobs:
       - name: Restore node_modules from cache
         uses: actions/cache@v3
         with:
-          path: ./Fitness-v2-client/node_modules
+          path: ./node_modules
           key: ${{ runner.os }}-pnpm-${{ hashFiles('**/pnpm-lock.yaml') }}
           restore-keys: |
             ${{ runner.os }}-pnpm-
