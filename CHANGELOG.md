@@ -1,3 +1,11 @@
+## [1.4.1](https://github.com/DimRev/fc-react-client/compare/v1.4.0...v1.4.1) (2025-01-11)
+
+
+### Bug Fixes
+
+* **scaffold-app-design:** Setup responsibe menu for AppHeader & inc Tests ([a8762fc](https://github.com/DimRev/fc-react-client/commit/a8762fc47e255b07af45fc2d56220b94f01b912b))
+* **scaffold-app-design:** Setup shared AppPage layout ([5049e90](https://github.com/DimRev/fc-react-client/commit/5049e9027bdadbd2846046e8efb88aa2d5e9ae57))
+
 # [1.4.0](https://github.com/DimRev/fc-react-client/compare/v1.3.1...v1.4.0) (2025-01-11)
 
 
