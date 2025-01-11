@@ -1,3 +1,11 @@
+## [1.4.2](https://github.com/DimRev/fc-react-client/compare/v1.4.1...v1.4.2) (2025-01-11)
+
+
+### Bug Fixes
+
+* **scaffold-app-design:** Setup AppHero and Typography components ([6f3653d](https://github.com/DimRev/fc-react-client/commit/6f3653d948a5865b68d60c59919f454792d2f347))
+* **scaffold-app-design:** Setup test utils ([6b970a7](https://github.com/DimRev/fc-react-client/commit/6b970a706c38fd0f2cdc357a29d72614dbaa9c69))
+
 ## [1.4.1](https://github.com/DimRev/fc-react-client/compare/v1.4.0...v1.4.1) (2025-01-11)
 
 
