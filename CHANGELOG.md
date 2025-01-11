@@ -1,3 +1,10 @@
+# [1.3.0](https://github.com/DimRev/fc-react-client/compare/v1.2.0...v1.3.0) (2025-01-11)
+
+
+### Features
+
+* **test:** Add vitest dpdc, and setup a test jenkins job ([59e2aa5](https://github.com/DimRev/fc-react-client/commit/59e2aa572200934965efd01267b8d74b8d979161))
+
 # [1.2.0](https://github.com/DimRev/fc-react-client/compare/v1.1.0...v1.2.0) (2025-01-11)
 
 
