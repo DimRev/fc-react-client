@@ -3,7 +3,7 @@ import { buttonVariants } from "~/features/shared/components/ui/button";
 
 function AppHeader() {
   return (
-    <header className="w-full border-b flex justify-center">
+    <header className="flex w-full justify-center border-b">
       <div className="container flex items-center justify-between">
         <div>Logo</div>
         <nav>
