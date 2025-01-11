@@ -13,7 +13,7 @@ describe("Routing Tests", () => {
     expect(screen.getByTestId("link-contact")).toBeInTheDocument();
   });
 
-  test("Navigates to HomePage when Home link is clicked", () => {
+  test("navigates to HomePage when Home link is clicked", () => {
     // Simulate a click on the Home link
     act(() => {
       screen.getByTestId("link-home").click();
@@ -21,7 +21,7 @@ describe("Routing Tests", () => {
     expect(screen.getByTestId("page-home")).toBeInTheDocument();
   });
 
-  test("Navigates to AboutPage when About link is clicked", () => {
+  test("navigates to AboutPage when About link is clicked", () => {
     // Simulate a click on the About link
     act(() => {
       screen.getByTestId("link-about").click();
@@ -29,7 +29,7 @@ describe("Routing Tests", () => {
     expect(screen.getByTestId("page-about")).toBeInTheDocument();
   });
 
-  test("Navigates to ContactPage when Contact link is clicked", () => {
+  test("navigates to ContactPage when Contact link is clicked", () => {
     // Simulate a click on the Contact link
     act(() => {
       screen.getByTestId("link-contact").click();
