@@ -1,0 +1,14 @@
+name: Jenkins Triggered Hello World
+
+# Trigger only manually (e.g., via the Jenkins API call)
+on:
+  workflow_dispatch:
+
+jobs:
+  hello-world-job:
+    runs-on: ubuntu-latest # Use the latest Ubuntu runner
+
+    steps:
+      # Step 1: Print "Hello, World!"
+      - name: Say Hello
+        run: echo "Hello, World! Triggered by Jenkins!"

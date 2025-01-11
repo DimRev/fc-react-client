@@ -1,4 +1,5 @@
-import { BrowserRouter, Link, Route, Routes } from 'react-router'
+import { BrowserRouter, Route, Routes } from 'react-router'
+import AppHeader from './features/layout/components/AppHeader'
 import AboutPage from './features/views/components/AboutPage'
 import ContactPage from './features/views/components/ContactPage'
 import HomePage from './features/views/components/HomePage'
@@ -6,15 +7,8 @@ import HomePage from './features/views/components/HomePage'
 function App() {
   return (
     <BrowserRouter>
-      <header className="flex items-center justify-between">
-        <div>Logo</div>
-        <nav>
-          <Link to="/">Home</Link>
-          <Link to="/about">About</Link>
-          <Link to="/contact">Contact</Link>
-        </nav>
-      </header>
-      <main>
+      <AppHeader />
+      <main className="flex-1 flex justify-center">
         <Routes>
           <Route Component={HomePage} path="/" />
           <Route Component={AboutPage} path="/about" />
