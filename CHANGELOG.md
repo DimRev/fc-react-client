@@ -1,3 +1,10 @@
+# [1.2.0](https://github.com/DimRev/fc-react-client/compare/v1.1.0...v1.2.0) (2025-01-11)
+
+
+### Features
+
+* **ci:** Add jenkins triggered job ([4098b5b](https://github.com/DimRev/fc-react-client/commit/4098b5b1af470d51c6ec7ea6f81a1b786e8245d5))
+
 # [1.1.0](https://github.com/DimRev/fc-react-client/compare/v1.0.4...v1.1.0) (2025-01-10)
 
 ### Features
