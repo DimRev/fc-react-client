@@ -1,5 +1,9 @@
 function AboutPage() {
-  return <div>AboutPage</div>
+  return (
+    <div className="w-full container" data-testid="page-about">
+      About
+    </div>
+  );
 }
 
-export default AboutPage
+export default AboutPage;

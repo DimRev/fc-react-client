@@ -1,8 +1,8 @@
-import { BrowserRouter, Route, Routes } from 'react-router'
-import AppHeader from './features/layout/components/AppHeader'
-import AboutPage from './features/views/components/AboutPage'
-import ContactPage from './features/views/components/ContactPage'
-import HomePage from './features/views/components/HomePage'
+import { BrowserRouter, Route, Routes } from "react-router";
+import AppHeader from "./features/layout/components/AppHeader";
+import AboutPage from "./features/views/components/AboutPage";
+import ContactPage from "./features/views/components/ContactPage";
+import HomePage from "./features/views/components/HomePage";
 
 function App() {
   return (
@@ -16,7 +16,7 @@ function App() {
         </Routes>
       </main>
     </BrowserRouter>
-  )
+  );
 }
 
-export default App
+export default App;

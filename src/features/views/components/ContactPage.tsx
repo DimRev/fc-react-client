@@ -1,5 +1,9 @@
 function ContactPage() {
-  return <div>ContactPage</div>
+  return (
+    <div className="w-full container" data-testid="page-contact">
+      Contact
+    </div>
+  );
 }
 
-export default ContactPage
+export default ContactPage;

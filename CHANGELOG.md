@@ -1,51 +1,45 @@
 # [1.1.0](https://github.com/DimRev/fc-react-client/compare/v1.0.4...v1.1.0) (2025-01-10)
 
-
 ### Features
 
-* **scaffold-structure:** Adding shadcn, and react router for routing and styleing ([54c7f88](https://github.com/DimRev/fc-react-client/commit/54c7f8814016f48ad64b2f99273a4be944983ced))
+- **scaffold-structure:** Adding shadcn, and react router for routing and styleing ([54c7f88](https://github.com/DimRev/fc-react-client/commit/54c7f8814016f48ad64b2f99273a4be944983ced))
 
 ## [1.0.4](https://github.com/DimRev/fc-react-client/compare/v1.0.3...v1.0.4) (2025-01-10)
 
-
 ### Bug Fixes
 
-* **ci:** Fix jenkins release job ([dd57825](https://github.com/DimRev/fc-react-client/commit/dd57825d13f48f3c783144d2598c54145afb224e))
+- **ci:** Fix jenkins release job ([dd57825](https://github.com/DimRev/fc-react-client/commit/dd57825d13f48f3c783144d2598c54145afb224e))
 
 ## [1.0.3](https://github.com/DimRev/fc-react-client/compare/v1.0.2...v1.0.3) (2025-01-10)
 
-
 ### Bug Fixes
 
-* **ci:** Setup trigger-release jenkins script to run after release github action ([23845ca](https://github.com/DimRev/fc-react-client/commit/23845cace5c21eae07074c46791820e4ca512bbf))
+- **ci:** Setup trigger-release jenkins script to run after release github action ([23845ca](https://github.com/DimRev/fc-react-client/commit/23845cace5c21eae07074c46791820e4ca512bbf))
 
 ## [1.0.2](https://github.com/DimRev/fc-react-client/compare/v1.0.1...v1.0.2) (2025-01-09)
 
-
 ### Bug Fixes
 
-* **ci:** Trigger jenkins job after semantic-release ([ac5928b](https://github.com/DimRev/fc-react-client/commit/ac5928b519a69cc082ca3127db9339589caaf3ea))
+- **ci:** Trigger jenkins job after semantic-release ([ac5928b](https://github.com/DimRev/fc-react-client/commit/ac5928b519a69cc082ca3127db9339589caaf3ea))
 
 ## [1.0.1](https://github.com/DimRev/fc-react-client/compare/v1.0.0...v1.0.1) (2025-01-09)
 
-
 ### Bug Fixes
 
-* **ci:** Add github action for release [#11](https://github.com/DimRev/fc-react-client/issues/11) ([844ef45](https://github.com/DimRev/fc-react-client/commit/844ef45b81b973e7136c969df5bfbd3d440ef1ab))
-* **ci:** Setup semantic release, github actions ([56b2a06](https://github.com/DimRev/fc-react-client/commit/56b2a061cd77a10b93c391f320e91d7bb05a2d19))
+- **ci:** Add github action for release [#11](https://github.com/DimRev/fc-react-client/issues/11) ([844ef45](https://github.com/DimRev/fc-react-client/commit/844ef45b81b973e7136c969df5bfbd3d440ef1ab))
+- **ci:** Setup semantic release, github actions ([56b2a06](https://github.com/DimRev/fc-react-client/commit/56b2a061cd77a10b93c391f320e91d7bb05a2d19))
 
 # 1.0.0 (2025-01-09)
 
-
 ### Bug Fixes
 
-* **ci:** Add github action for releasE ([7e9844c](https://github.com/DimRev/fc-react-client/commit/7e9844c721dba2faf4c191970a26c50468d0d33a))
-* **ci:** Add github action for release [#10](https://github.com/DimRev/fc-react-client/issues/10) ([3e75134](https://github.com/DimRev/fc-react-client/commit/3e75134460c20d2b1c7e6992217c7b05b07557b0))
-* **ci:** Add github action for release [#2](https://github.com/DimRev/fc-react-client/issues/2) ([795c42b](https://github.com/DimRev/fc-react-client/commit/795c42bc7bb9d974bcb8c5904d475749313f5909))
-* **ci:** Add github action for release [#3](https://github.com/DimRev/fc-react-client/issues/3) ([4f3675d](https://github.com/DimRev/fc-react-client/commit/4f3675d7b6e770c601b0c22ad5e362df925036f7))
-* **ci:** Add github action for release [#4](https://github.com/DimRev/fc-react-client/issues/4) ([8f07542](https://github.com/DimRev/fc-react-client/commit/8f075421ff85e8cd2e0bd9d6349cf9d6ab7aef32))
-* **ci:** Add github action for release [#5](https://github.com/DimRev/fc-react-client/issues/5) ([8cc470c](https://github.com/DimRev/fc-react-client/commit/8cc470c949fe980cc32d1fb58a8974ce4ff797b7))
-* **ci:** Add github action for release [#6](https://github.com/DimRev/fc-react-client/issues/6) ([c532a26](https://github.com/DimRev/fc-react-client/commit/c532a2685748c1575df297902b9482ef4cac8210))
-* **ci:** Add github action for release [#7](https://github.com/DimRev/fc-react-client/issues/7) ([e88f180](https://github.com/DimRev/fc-react-client/commit/e88f180c2e66b8e4a53eef7991a6f75e74b4025b))
-* **ci:** Add github action for release [#8](https://github.com/DimRev/fc-react-client/issues/8) ([7965d98](https://github.com/DimRev/fc-react-client/commit/7965d980d91a73de907b38f395cbacd4d94aa2b3))
-* **ci:** Add github action for release [#9](https://github.com/DimRev/fc-react-client/issues/9) ([d5c2adb](https://github.com/DimRev/fc-react-client/commit/d5c2adb868d517cb5894bad2d533f59552fa91ac))
+- **ci:** Add github action for releasE ([7e9844c](https://github.com/DimRev/fc-react-client/commit/7e9844c721dba2faf4c191970a26c50468d0d33a))
+- **ci:** Add github action for release [#10](https://github.com/DimRev/fc-react-client/issues/10) ([3e75134](https://github.com/DimRev/fc-react-client/commit/3e75134460c20d2b1c7e6992217c7b05b07557b0))
+- **ci:** Add github action for release [#2](https://github.com/DimRev/fc-react-client/issues/2) ([795c42b](https://github.com/DimRev/fc-react-client/commit/795c42bc7bb9d974bcb8c5904d475749313f5909))
+- **ci:** Add github action for release [#3](https://github.com/DimRev/fc-react-client/issues/3) ([4f3675d](https://github.com/DimRev/fc-react-client/commit/4f3675d7b6e770c601b0c22ad5e362df925036f7))
+- **ci:** Add github action for release [#4](https://github.com/DimRev/fc-react-client/issues/4) ([8f07542](https://github.com/DimRev/fc-react-client/commit/8f075421ff85e8cd2e0bd9d6349cf9d6ab7aef32))
+- **ci:** Add github action for release [#5](https://github.com/DimRev/fc-react-client/issues/5) ([8cc470c](https://github.com/DimRev/fc-react-client/commit/8cc470c949fe980cc32d1fb58a8974ce4ff797b7))
+- **ci:** Add github action for release [#6](https://github.com/DimRev/fc-react-client/issues/6) ([c532a26](https://github.com/DimRev/fc-react-client/commit/c532a2685748c1575df297902b9482ef4cac8210))
+- **ci:** Add github action for release [#7](https://github.com/DimRev/fc-react-client/issues/7) ([e88f180](https://github.com/DimRev/fc-react-client/commit/e88f180c2e66b8e4a53eef7991a6f75e74b4025b))
+- **ci:** Add github action for release [#8](https://github.com/DimRev/fc-react-client/issues/8) ([7965d98](https://github.com/DimRev/fc-react-client/commit/7965d980d91a73de907b38f395cbacd4d94aa2b3))
+- **ci:** Add github action for release [#9](https://github.com/DimRev/fc-react-client/issues/9) ([d5c2adb](https://github.com/DimRev/fc-react-client/commit/d5c2adb868d517cb5894bad2d533f59552fa91ac))
