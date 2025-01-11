@@ -39,7 +39,7 @@ function AppHeader() {
 
   return (
     <header
-      className="flex h-10 w-full justify-center border-b"
+      className="h-header flex w-full justify-center border-b"
       data-testid="app-header"
     >
       <div className="container flex items-center justify-between">

@@ -1,15 +1,19 @@
-import { type PropsWithChildren } from "react";
+import React, { type PropsWithChildren } from "react";
 
 type Props = {
   testId?: string;
 };
 
-function AppPage({ children, testId }: PropsWithChildren<Props>) {
-  return (
-    <div className="flex w-full flex-col items-center" data-testid={testId}>
-      {children}
+const AppPage = React.forwardRef<HTMLDivElement, PropsWithChildren<Props>>(
+  ({ children, testId }, ref) => (
+    <div
+      ref={ref}
+      className="h-main w-full overflow-y-auto"
+      data-testid={testId}
+    >
+      <div className="flex flex-col items-center">{children}</div>
     </div>
-  );
-}
+  ),
+);
 
 export default AppPage;
