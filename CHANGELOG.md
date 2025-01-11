@@ -1,3 +1,10 @@
+## [1.3.1](https://github.com/DimRev/fc-react-client/compare/v1.3.0...v1.3.1) (2025-01-11)
+
+
+### Bug Fixes
+
+* **ci:** Use pnpm cache ([28f44c6](https://github.com/DimRev/fc-react-client/commit/28f44c6103458a4619ac0d7f51967a9d8e250421))
+
 # [1.3.0](https://github.com/DimRev/fc-react-client/compare/v1.2.0...v1.3.0) (2025-01-11)
 
 
